@@ -59,7 +59,7 @@ body {
 }
 /* -------header end-------- */
 
-/* -------- section intro start --------
+/* ----- section intro start ----
  */
 .intro {
     background-color: rgb(239, 235, 235);
@@ -118,3 +118,71 @@ body {
 }
 
 /* --------- section intro end -------- */
+
+/* --------- section red start --------- */
+.red {
+    background-image: url(/img/red-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1080px;
+}
+
+
+.red__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red__title {
+    padding-top: 170px;
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    text-align: center;
+}
+.red__suptitle {
+    margin-bottom: 130px;
+    max-width: 960px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    text-align: center;
+    
+}
+.red__grape-blocks {
+    display: flex;
+    justify-content: center;
+}
+.red__grape-block {
+    padding-right: 156px;
+}
+
+.red__grape-block:last-child {
+    padding-right: 0;
+}
+.red__grape {
+}
+.red__img {
+    margin-bottom: 40px;
+}
+.red__button {
+}
+.red__btn {
+    position: absolute;
+    top: 910px;
+    left: 650px;
+    padding: 16px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: black;
+    background-color: white;
+}
+
+
+/* -------- section red finish --------- */
