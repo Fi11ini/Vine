@@ -27,9 +27,14 @@ body {
 /* -------- header start ------- */
 .header {
     position: absolute;
+    margin-top: 10px;
     width: 100%;
     top: 0;
     left: 0;
+}
+
+.header__logo {
+
 }
 
 .header__wrapper {
@@ -186,3 +191,72 @@ body {
 
 
 /* -------- section red finish --------- */
+
+/* ------ Block Photos start --------
+ */
+.container2 {
+    max-width: 1458px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* ------------- Block Photos finish ---------------- */
+.photos {
+}
+.container2 {
+}
+.photos__blocks {
+}
+.photos__block {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.photos__image {
+}
+.photos__img {
+    margin-bottom: 300px;
+}
+.photos__comment {
+    max-width: 528px;
+    border: 1px solid #561010;
+    align-self: flex-end;
+}
+.photos__title {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #561010;
+}
+.photos__text {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #a12727;
+}
+.photos__stars {
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.photos__stars-img {
+}
+
+
+
+
+
+
+
+
+
+.ddd {
+    height: 600px
+}
