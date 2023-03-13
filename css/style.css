@@ -8,6 +8,7 @@
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -31,10 +32,6 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-}
-
-.header__logo {
-
 }
 
 .header__wrapper {
@@ -72,6 +69,7 @@ body {
 }
 
 .intro__wrapper {
+    position: relative;
     display: flex;
 }
 .intro__text-block {
@@ -96,8 +94,7 @@ body {
     line-height: 150%;
     color: #a12727;
 }
-.intro__button {
-}
+
 .intro__btn {
     padding: 16px 40px;
     font-weight: 700;
@@ -116,7 +113,6 @@ body {
 }
 
 .intro__arrow {
-    display: block;
     position: absolute;
     top: 1025px;
     left: 765px;
@@ -170,13 +166,12 @@ body {
 .red__grape-block:last-child {
     padding-right: 0;
 }
-.red__grape {
-}
+
 .red__img {
     margin-bottom: 40px;
 }
-.red__button {
-}
+
+
 .red__btn {
     position: absolute;
     top: 910px;
@@ -193,8 +188,6 @@ body {
 .red__btn:hover {
     background-color: red;
 }
-
-
 /* -------- section red finish --------- */
 
 /* ------ Block Photos start --------
@@ -206,14 +199,12 @@ body {
     margin: 0 auto;
 }
 
-
-/* ------------- Block Photos finish ---------------- */
 .photos {
+    position: relative;
     padding-top: 150px;
+    padding-bottom: 350px;
     background-color: rgb(239, 235, 235);
 
-}
-.container2 {
 }
 .photos__blocks {
     display: flex;
@@ -261,12 +252,27 @@ body {
     padding-left: 24px;
     padding-bottom: 24px;
 }
-.photos__stars-img {
+
+.photos__btn {
+    position: absolute;
+    top: 1762px;
+    left: 1320px;
+    padding: 16px 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    background-color:#561010;
+    color: white;
+    transition: .4s;
+}
+
+.photos__btn:hover {
+    background-color:red;
 }
 /* ----------- */
 
 .photos__comment-right {
-    margin-bottom: 304px;
+    margin-bottom: 329px;
     max-width: 528px;
     border: 1px solid #561010;
 }
@@ -275,16 +281,68 @@ body {
     padding-left: 60px;
 }
 
-
-
-
-
-
-
-.ddd {
-    height: 600px
+.lowerred {
+    background-color:#561010;
+}
+.container2 {
+}
+.text2 {
+    padding-top: 172px;
+    padding-left: 220px;
+    padding-bottom: 172px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+}
+/* ------------- Block Photos finish ---------------- */
+/* ----------footer start--------- */
+.footer__wrapper {
+    height: 400px;
+}
+.container {
+}
+.footer__title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #561010;
+}
+.footer__logos {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.footer__logo-item {
+    padding-right: 56px;
 }
 
-.photos__block-right {
-    padding-left: 60px;
+.footer__logo-item:last-child {
+    padding-right: 0;
 }
+
+.footer__copy {
+    text-align: center;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #561010;
+}
+
+
+
+
+
+
+
+
